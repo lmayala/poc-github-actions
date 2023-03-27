@@ -8,7 +8,7 @@ jobs:
   setup-job:
     runs-on: ubuntu-latest
     outputs:
-      var1: ${{ steps.set-variable.outputs.airlock }}
+      airlock_name: ${{ steps.set-variable.outputs.airlock }}
     steps:
       - uses: actions/checkout@v2
       - name: Set airlock variable
@@ -24,7 +24,7 @@ jobs:
         shell: bash
       - name: Read exported variable
         run: |
-          echo "OUTPUT: ${{var1}}"
+          echo "OUTPUT: ${{ steps.set-variable.outputs.airlock }}"
 
   subsequent-job:
     runs-on: ubuntu-latest
@@ -33,4 +33,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: Read exported variable
         run: |
-          echo "OUTPUT: ${{needs.setup-job.outputs.var1}}"
+          echo "OUTPUT: ${{needs.setup-job.outputs.airlock_name}}"
