@@ -1,6 +1,6 @@
 name: 29 - Check Actor on PR or PUSH
 
-on: [push, pull_request]
+on: #[push, pull_request]
 
 jobs:
     job1:

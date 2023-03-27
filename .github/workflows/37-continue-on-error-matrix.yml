@@ -1,6 +1,6 @@
 name: 37 - Continue On Error Matrix
 
-on: [push, workflow_dispatch]
+on: #[push, workflow_dispatch]
 
 env:
   PYTHON_VERSIONS: "2.x"

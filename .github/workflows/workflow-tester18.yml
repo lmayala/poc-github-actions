@@ -24,7 +24,7 @@ jobs:
         shell: bash
       - name: Read exported variable
         run: |
-          echo "OUTPUT: ${{outputs.var1}}"
+          echo "OUTPUT: ${{setup-job.outputs.var1}}"
 
   subsequent-job:
     runs-on: ubuntu-latest
