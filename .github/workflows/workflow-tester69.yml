@@ -1,10 +1,10 @@
 name: Test 69 # Related to https://stackoverflow.com/questions/74188363/set-github-workflow-environment-variable-based-on-branch
 
 on:
-  push:
-    branches:
-      - main
-      - release/*
+  #push:
+  #  branches:
+  #    - main
+  #   - release/*
 
 env:
   REGISTRY: ghcr.io

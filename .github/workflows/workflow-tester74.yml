@@ -1,7 +1,7 @@
 name: Test 74 # Related to https://github.com/GuillaumeFalourd/formulas-github/issues/21
 
 on:
-  push:
+  #  push:
 
 jobs:
   Test:

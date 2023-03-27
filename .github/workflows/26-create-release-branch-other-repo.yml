@@ -1,9 +1,9 @@
 name: 26 - Create release branch on another repo
 
 on:
-  push:
-    tags:
-      - '*.*.*'
+  #  push:
+  #  tags:
+  #    - '*.*.*'
 
 jobs:
   # release-git-commands:

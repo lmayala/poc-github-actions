@@ -1,10 +1,10 @@
 name: 18 - Specific File
 
 on:
-  push:
-    paths:
-      - '**/report.txt'
-      - '**/README.md'
+  #  push:
+  #  paths:
+  #    - '**/report.txt'
+  #   - '**/README.md'
   pull_request:
     paths:
       - '**/report.txt'

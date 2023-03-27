@@ -1,9 +1,9 @@
 name: Changed Files
 
 on:
-  push:
-    branches:
-      - main
+  #push:
+  # branches:
+  #   - main
   pull_request:
     branches:
       - main

@@ -1,9 +1,9 @@
 name: 15 - Push Dev
 
 on:
-  push:
-    branches:
-    - 'dev'
+  #  push:
+  #  branches:
+  #  - 'dev'
 
 jobs:
   build:

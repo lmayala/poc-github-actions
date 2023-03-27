@@ -1,9 +1,9 @@
 name: Checkout
 
 on:
-  push:
-    branches:
-      - 'dev' # For the dev branch
+  #push:
+  # branches:
+  #   - 'dev' # For the dev branch
   schedule:
     - cron: "0 0 * * MON-FRI" # Runs at 00:00 UTC
   workflow_dispatch:

@@ -1,7 +1,7 @@
 name: Test 75 # Related to https://stackoverflow.com/questions/75446952/github-workflows-changing-or-specifying-environment-variables-in-matrix-jobs
 
 on:
-  push:
+  #  push:
 
 env:
   MY_VAR: One

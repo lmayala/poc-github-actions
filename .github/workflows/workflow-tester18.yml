@@ -17,15 +17,16 @@ jobs:
           if [ ${{ github.ref }} != 'refs/heads/main' ]; then
             echo "IS NOT main branch"
             echo "test=abc" >> $GITHUB_ENV
+            echo "test=abc" >> $GITHUB_OUTPUT
           else
             echo "IS main branch"
             echo "test=123" >> $GITHUB_ENV
+            echo "test=123" >> $GITHUB_OUTPUT
           fi
         shell: bash
       - name: Read exported variable
         run: |
           echo "ENV: ${{ env.test }}"
-          echo "OUTPUT: ${{ steps.check.test-env.test }}"
 
   subsequent-job:
     runs-on: ubuntu-latest

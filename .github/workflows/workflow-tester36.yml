@@ -2,7 +2,7 @@ name: Test 36 # Related to https://stackoverflow.com/questions/72532083/how-to-a
 
 on:
   workflow_dispatch:
-  push:
+    #  push:
 
 jobs:
   job1:

@@ -1,9 +1,9 @@
 name: 28 - Create Pull Request
 
 on:
-  push:
-    branches:
-      - feature/*
+  #  push:
+  #  branches:
+  #    - feature/*
 
 jobs:
   create-pull-request:

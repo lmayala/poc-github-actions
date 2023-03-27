@@ -1,7 +1,7 @@
 name: 48 - Wait for Completion
 
 on:
-  push:
+  #  push:
 
 jobs:
   wait-job-reusable-1:

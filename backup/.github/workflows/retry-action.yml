@@ -2,9 +2,9 @@ name: Retry Action
 
 on:
   workflow_dispatch:
-  push:
-    tags:
-      - 'v*.*.*'
+    #push:
+    #tags:
+    # - 'v*.*.*'
 
 jobs:
   wandalen-retry:

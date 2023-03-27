@@ -1,7 +1,7 @@
 name: Github Action Container Scan
 
 on:
-  push:
+  #push:
 
 jobs:
   scan:

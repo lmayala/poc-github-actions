@@ -1,11 +1,11 @@
 name: 43 - Not trigger on tag
 
 on:
-  push:
+  #push:
     # This should disable running the workflow on tags, according to the
     # on.<push|pull_request>.<branches|tags> GitHub Actions docs.
-    branches:
-      - "*"
+    #  branches:
+    #  - "*"
   pull_request:
   schedule:
     - cron: '48 6 * * *'

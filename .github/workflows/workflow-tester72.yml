@@ -1,7 +1,7 @@
 name: Test 72 # Related to https://stackoverflow.com/questions/74386773/github-actions-job-is-skipped-although-all-needs-succeeded
 
 on:
-  push:
+  #  push:
 
 jobs:
   auto-versioning:
